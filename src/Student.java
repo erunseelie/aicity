@@ -1,15 +1,10 @@
-// Student class
-// - student ID: String
-// - first name: String
-// - last name: String
-// - course information
 public class Student {
     private String id;
     private String nameF;
     private String nameL;
     private Course[] courses;
 
-    Student(String id, String nameF, String nameL, Course[] courses) {
+    public Student(String id, String nameF, String nameL, Course[] courses) {
         this.id = id;
         this.nameF = nameF;
         this.nameL = nameL;

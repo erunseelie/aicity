@@ -1,6 +1,3 @@
-// Course class
-// - course name: String/enum
-// - mark: int
 public class Course {
     private String name;
     private int mark;
